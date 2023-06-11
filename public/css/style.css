@@ -1,0 +1,104 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+html {
+    font-size: 62.5%;
+    scroll-behavior : smooth;
+display : inline;
+}
+body {
+font : 1.6rem 'open Sans', sans-serif;
+margin : 0;
+line-height : 1.5;
+background-color: rgb(255, 255, 255);
+display : inline;
+}
+* {
+box-sizing : border-box;
+}
+h1, h2, h3, h4, h5, h6, p, figure, ul, ol {
+margin : 0;
+padding : 0;
+list-style-type : none;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight : 200;
+}
+img {
+display : inline-block;
+width : 100%;
+height : 100%;
+vertical-align : middle;
+object-fit : cover;
+}
+a {
+text-decoration : none;
+color : rgb(22, 22, 22);
+}
+:root {
+--primary-color-theme : #17cd8d;
+--secondary-color-theme : #8f8d8dce;
+--last-color-theme: #000000;
+--warning-theme: #ffffff;
+
+}
+nav  {
+    font-size: 18px;
+     padding: 0 0 2rem;
+     }
+   
+  header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  nav {
+    background-color:#17cd8d;
+    
+    text-align: center;
+    font-size: medium;
+    text-transform: uppercase;
+    line-height: 4.5rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px; /* Ajoute un espace de 10 pixels entre les éléments de la liste */
+  }
+  
+
+  
+  
+  nav ul li:hover{
+    background-color: var(#232);
+  }
+  
+  nav ul li img {
+    margin:  0 0 -.6rem;
+  }
+   
+
+header h1 {
+text-align : center;
+color: var(--last-color-theme);
+font-weight: bold;
+margin-top: 5rem; 
+font-size: 40px;
+
+
+
+}
+.connexion h2 {
+    text-align: center;
+    font-size: medium;
+    margin-top: 1rem;
+}
+header p {
+    font-size: small;
+    text-align: center;
+}

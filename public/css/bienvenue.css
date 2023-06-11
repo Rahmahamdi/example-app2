@@ -1,0 +1,117 @@
+main section {
+    display: flex;
+    max-width: 50rem;
+    height: 20rem;
+    margin: 10rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+}
+
+main div.robert {
+    width: 40%;
+    overflow: hidden;
+}
+
+main section p.tech {
+    background-color: rgb(25, 181, 25);
+    position: absolute;
+    margin-left: 44rem;
+    overflow: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17cd8d;
+}
+
+ul.left {
+    display: flex;
+    align-items: center;
+}
+
+ul.right {
+    display: flex;
+    align-items: center;
+}
+
+ul.right li {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+ul.right li:first-child {
+    margin-left: auto;
+}
+
+ul.right li:last-child {
+    margin-right: auto;
+}
+
+p, h1 {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+main section:hover p.tech {
+    opacity: 15;
+    transition: .5s;
+}
+
+main div.robert img {
+    height: 100%;
+    width: 100%;
+}
+
+main ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 10px; /* Ajout d'une marge à gauche */
+}
+
+main ul.right {
+    margin: 2rem 0;
+    margin-left: 4rem;
+}
+
+main ul li img {
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+main ul li p.nom {
+    font-weight: bolder;
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+main ul li p.age {
+    margin-left: 1rem;
+    color: grey;
+}
+
+main ul li p.pays {
+    margin: 1rem 0rem;
+    color: grey;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17cd8d;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.centrer {
+    text-align: center;
+    margin-top: 20px;
+}

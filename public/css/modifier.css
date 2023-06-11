@@ -1,0 +1,58 @@
+
+
+  
+header {
+    line-height: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.modifier {
+    width: fit-content;
+    display: grid;
+    margin:0  auto;
+}
+
+.modifier  {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Première colonne pour les labels, deuxième colonne pour les inputs */
+    align-items: center;
+}
+
+
+.modifier input,
+.modifier select {
+    border: solid;
+    width: 100%;
+    padding: .6rem;
+}
+ 
+
+.modifier  {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+
+main p {
+    text-align: center;
+}
+form .modifier label {
+    display:block;
+    text-align: left;
+    margin-right: 1rem; /* Espacement entre les labels */
+    font-weight: bold;
+  }
+
+.modifier input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+  }
